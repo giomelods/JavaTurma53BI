@@ -15,6 +15,7 @@ public class Bichinhos {
         dog.nome="Neguinho";
         dog.idade=12;
         dog.som=true;
+        dog.emitir();
         dog.correr=true;
         dog.movimentar();
         dog.estadoAtual();
@@ -25,6 +26,7 @@ public class Bichinhos {
         horse.nome="Bart";
         horse.idade=12;
         horse.som=true;
+        horse.emitir();
         horse.correr=true;
         horse.movimentar();
         
@@ -36,6 +38,7 @@ public class Bichinhos {
         sloth.nome="Lupy";
         sloth.idade=12;  
         sloth.som=true;
+        sloth.emitir();
         sloth.subir=true;
         sloth.subindo();
         sloth.estadoAtual();

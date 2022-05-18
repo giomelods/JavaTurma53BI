@@ -3,6 +3,11 @@ package Heranca;
 public class Preguica extends Animal {
 	
 	public boolean subir;
+	@Override
+	public void emitir()
+	{
+		System.out.println("não emite som");
+	}
 	
 	public void subindo ()
 	{

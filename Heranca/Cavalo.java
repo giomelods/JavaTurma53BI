@@ -3,6 +3,12 @@ package Heranca;
 public class Cavalo extends Animal {
 	
 	public boolean correr;
+	@Override
+	public void emitir()
+	{
+		System.out.println("Relinchar");
+	}
+	
 	
 	public void movimentar ()
 	{
